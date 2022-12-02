@@ -2,4 +2,6 @@
 
 Javascript ile Akordiyon Menü Uygulaması
 
+live: https://omeryaltirik.github.io/Js-ile-Akordiyon-Menu-Uygulamasi/
+
 ![Ekran görüntüsü 2022-12-03 000818](https://user-images.githubusercontent.com/40443652/205386374-240f2ee7-fb0d-44ae-a5bb-f500b55720cc.png)
