@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Bodoni+Moda:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bodoni Moda", serif;
+}
+body {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.kapsa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+button {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  font-size: 24px;
+  color: bisque;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+button:hover,
+button:active {
+  background: red;
+  cursor: pointer;
+}
+.kutu {
+  width: calc(50% - 40px);
+  padding: 0 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.kutu p {
+  padding: 20px;
+}
